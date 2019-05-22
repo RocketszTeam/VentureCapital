@@ -1,0 +1,414 @@
+@charset "utf-8";
+/* CSS Document */
+.wrapper.style4,.frame_bg_member { display:none;}
+
+.btn-menu{  border-radius: 0px !important;	}
+.border{
+	width: 100%;
+    height: 2px;
+    margin: 10px 0;
+    background: linear-gradient(to right, rgba(96, 56, 19, 0),orange,#b88a31,#e0c66f,#d8d2bf,#b88a31,rgba(96, 56, 19, 0));
+    bottom: 0;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.5);
+    border: 0 !important;}
+@charset "utf-8";
+/* CSS Document */
+.member{ /*背景*/
+}
+/*選單----------------*/
+#memberUser {
+    padding: 0.3rem;
+    text-align: left;
+}
+#memberMenu {
+    padding: 1.3rem;
+}
+#memberMenu button{
+	color: #7f1b19 !important;
+	box-shadow: inset 0 0 0 1px #8c1d1c;
+	}
+.memberInfo{
+	width: 95%;
+    margin: auto;
+    padding: 1em;
+	font-size: 18px;
+    font-weight: bold;}
+.memberInfo.transfer {
+    padding: 1em 8em;
+}
+.registerTitle h3{font-weight: bold;}
+.registerTitle img{max-width: 200px;}
+.change_pwd label, .userBox label, .transfer label{
+    font-size: 1em;
+	color: #580501;
+    font-weight: 600;
+    background: #cea63f;
+    padding: 10px;
+    margin-bottom: 3px;
+	width:100%;
+}
+.form-check-label { background:none !important;}
+.transfer label {
+    padding: 12px 20px;
+    height: 2.75em !important;
+    margin: 0;
+    color: #580501;
+    font-size: 1.2em;
+    /* background: transparent; */
+}
+.form-inline .form-control {
+    display: inline-block;
+    width:inherit;
+    vertical-align: middle;
+}
+.form-inline div { padding-left: 1em; }
+@media screen and (max-width: 900px) {	
+	#memberMenu {
+		margin-bottom: -10px;
+		padding: 1rem 5px;
+	}
+	#memberMenu button{
+		min-width: auto !important;
+	}
+	.memberInfo{ width:100%;}
+	.memberInfo.transfer { padding: 1em;}
+	#memberUser{ text-align: center;}
+	}
+@media screen and (max-width: 650px) {	
+	#memberMenu button{
+		min-width: 32% !important;
+	}
+}
+/*------背景設定----------------------------*/
+#register {
+    background: #e2c077;
+    padding: 0.3rem;
+    border-radius: 12px;
+}
+.register_bg {
+    padding: 2rem 1rem;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.registerInfo {
+    width: 80%;
+    margin: auto;
+    padding: 1em;
+}
+.registerTitle {
+	padding:.5em;
+}
+
+#cta .form-inline label {
+    color: #7f1a15;
+    background: #8a7244;
+	background:linear-gradient(rgb(191, 156, 89), rgb(142, 114, 55),#e2c077);
+    padding: 9px;
+    min-width: 126px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: 1px #e2c077 solid;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.59);
+}
+
+#cta .form-inline{
+	padding: 4px;
+	}
+#cta .form-inline .form-control {
+	display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    padding: 22px;
+    border-radius: 12px;
+}
+
+.pa {
+    height: 20px;
+    width: 20px;
+    float: left;
+    color: #ff2800;
+    font-size: 1.5em;
+}
+.memberInfo.userBox.forgot {/*忘記密碼頁面寬度*/
+    max-width: 45em;}
+	
+@media screen and (max-width: 900px) {
+	
+	.register_bg {  padding:0;}
+	.registerInfo {  width: 100%;}
+	#cta .form-inline label{min-width: 100%;border-radius:0;}
+	#cta .form-inline .form-control {  border-radius: 0px; }
+	.col-12{padding:0;}
+	#cta button{   min-width: 100%; }
+	.registerTitle {max-width: 200px;  margin: auto;}
+	.memberInfo { padding: 0em;}
+}
+
+
+
+input[type="checkbox"], input[type="radio"] {
+    -moz-appearance: check;
+    -webkit-appearance: checkbox;
+    -ms-appearance: checkbox;
+    appearance: inherit;
+    display: inline-block;
+    float: left;
+    margin-right: 0;
+    opacity: 1;
+    width: 1rem;
+    z-index: 1;
+}
+.form-check-input {
+    position: absolute;
+    margin-top: 0.4rem;
+    margin-left: -1.25rem;
+}
+
+/*點數儲值-------------------------------------*/
+form#depositForm{ margin: 0 5em; }
+@media only screen and (max-width: 760px),
+	(min-device-width: 768px) and (max-device-width: 1024px)  {
+		form#depositForm{ margin: 0; }
+	}
+/*-會員中心---------------------------------------*/     
+  
+  .select_s{width:70px;display:inline-block;margin-left:5px; }
+  .tabtt{font-size:30px;color:#eb6100; display:block;line-height:1.5em} 
+    
+   th.green-bg{background:#a88231;color:#fff;}
+  .fortune-style-row{background:#f8f8f8;width:35% } 
+  .form-control{border:1px solid #ddd;padding:5px 1%; border-radius:8px; }
+  .accountForm{margin:20px 0} 
+  .btn2{border:0;background:#eb6100; color:#fff; line-height:40px;padding:0  ;font-size:18px;margin:0 5px; -moz-border-radius:8px; -webkit-border-radius:8px;border-radius:8px;padding:0 20px; } 
+  .btn2:hover{background:#f9c519 ; }
+  .btn3 {background:#666 ; }
+ 
+  .pay {margin:10px 0;padding:15px; margin: 0 .5em;}
+ .payicon, .member .nav-pills>li>a {
+        display: inline-block;
+        margin: 0;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+        border-radius: 0;
+        border-width: 0px 0px 4px 0;
+        border-style: solid;
+        border-color: #999;
+        background: #FFF;
+        position: relative;
+        padding: 0em;
+        cursor: pointer;
+    }
+  /*.payicon,.member .nav-pills>li>a
+  {display:inline-block;margin:0 5px 10px 5px; -moz-border-radius:50%; -webkit-border-radius:50%;border-radius:50%;border:5px solid #999;background:#FFF;position:relative; padding: 0 4px;cursor: pointer;}*/
+  .payicon:hover,.current, .member .nav-pills li.active a{border-width: 0px 0px 6px 0;border-color:  #ffc93c; }
+  .pay .current::after{content:'';position:absolute;bottom:-30px;left:50%;margin-left:-15px;width: 0;height: 0;border-style: solid;border-width: 0 15px 20px 15px;border-color: transparent transparent #ffc93c transparent; }
+  .payicon img{-webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); filter: grayscale(100%); }
+  .payicon:hover img,
+  .payicon:active img,
+  .payicon:focus img,.pay .current img
+  {-webkit-filter: grayscale(0); -moz-filter: grayscale(0); -ms-filter: grayscale(0); -o-filter: grayscale(0); filter: grayscale(0); }
+ 
+  .inputgroup{width:100%;margin:10px auto;overflow:hidden} 
+  .inputgroup .control-label{line-height:40px;}
+  .inputgroup .group{margin:10px 0;clear:both;overflow:hidden} 
+  .group .w3{line-height:40px;margin:0}
+  .alert h4{text-align:center;color: #721c24; font-weight:600;    font-size: 2rem;}
+  .alert ul{margin-left: 30px;text-align: left;list-style:outside disc  ; } 
+  .alert ul li{ margin:10px 0} 
+  
+  #memberInfo.control-label{ padding:20px;}
+  
+/*歷史紀錄表格--------------------------------------*/
+
+	.page-link {
+		position: relative;
+		display: block;
+		padding: .5rem .75rem;
+		margin-left: -1px;
+		line-height: 1.25;
+		color: #000;
+		background-color: #a88231;
+		border: 1px solid #cea63f;
+	}
+	.page-link:hover {
+		color: #840b03;
+		text-decoration: none;
+		background-color: #a88231;
+		border-color: #cea63f;
+	}
+	li.page-item {
+		padding-left: 0;
+	}
+	.history,.sell,.accounts { background-color: rgba(0, 0, 0, 0.6) !important; }
+	
+	@media only screen and (max-width: 760px),
+		(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+			/* Force table to not be like tables anymore */
+			table, thead, tbody, th, td, tr {
+				display: block;  }
+	
+			/* Hide table headers (but not display: none;  , for accessibility) */
+			thead tr {
+				position: absolute;  top: -9999px;  left: -9999px;  }
+	
+			tr { border: 1px solid #ccc;  }
+	
+			td {
+				/* Behave  like a "row" */
+				border: none;  border-bottom: 1px solid #eee;  position: relative;  padding-left: 50% !important;  }
+	
+			td:before {
+				/* Now like a table header */
+				position: absolute;  /* Top/left values mimic padding */
+				top: 6px;  left: 6px;  width: 45%;  padding-right: 10px;  white-space: nowrap;  }
+	
+			/*
+			Label the data
+			*/
+			.shift td:nth-of-type(1):before,.dereference td:nth-of-type(1):before { content: "遊戲館";  }
+			.shift td:nth-of-type(2):before,.dereference td:nth-of-type(2):before { content: "電子錢包";  }
+			.shift td:nth-of-type(3):before,.dereference td:nth-of-type(3):before { content: "歐博真人";  }
+			.shift td:nth-of-type(4):before,.dereference td:nth-of-type(4):before { content: "體育博彩";  }
+			.shift td:nth-of-type(5):before,.dereference td:nth-of-type(5):before { content: "台灣賓果";  }
+			.shift td:nth-of-type(6):before,.dereference td:nth-of-type(6):before { content: "3D電子";  }
+			.shift td:nth-of-type(7):before,.dereference td:nth-of-type(7):before { content: "GTK電子";  }
+			
+			.accounts td:nth-of-type(1):before { content: "日期";  }
+			.accounts td:nth-of-type(2):before { content: "類型";  }
+			.accounts td:nth-of-type(3):before { content: "金額";  }
+	
+			.sell td:nth-of-type(1):before { content: "時間";  }
+			.sell td:nth-of-type(2):before { content: "類型";  }
+			.sell td:nth-of-type(3):before { content: "金額";  }
+			
+			.history td:nth-of-type(1):before { content: "儲值時間";  }
+			.history td:nth-of-type(2):before { content: "儲值方式";  }
+			.history td:nth-of-type(3):before { content: "儲值金額";  }
+			.history td:nth-of-type(4):before { content: "處理結果";  }
+			
+		
+	}
+	
+/*-遊戲開通---------------------------------------*/  
+.receive {
+    text-align: center;
+    padding: .5rem;
+    border: #848383 solid 1px;
+    border-radius: 14px;
+    margin-bottom: 5px;
+    background: linear-gradient(rgba(118, 112, 102, 0.5),rgba(52, 52, 52, 0.5));
+}
+.gmaeLogo{ height:100px; overflow:hidden; margin:auto;}
+.gmaeLogo img{ max-height:100px; width:auto;}
+.receive.gavel{ filter: grayscale(80%); }
+
+.receive>.game_name{ font-weight:600; color:#c49c5f;}
+.receive>a{}
+.gavel>a btn {cursor:default;}
+.receive:before {
+	content: " ";
+    background: url(../../images/register_bg.png) no-repeat;
+    background-size: 123px;
+    background-position: left top;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 15px;
+    top: 0;
+    z-index: 1;
+}
+
+.receive:after {
+	content: " ";
+    background: url(../../images/register_bg.png) no-repeat;
+    background-size: 123px;
+    background-position: right bottom;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    right: 15px;
+    bottom: 5px;
+    z-index: 1;
+}
+@media only screen and (max-width: 600px){
+.gmaeLogo img {
+    max-height: 100px;
+    max-width: 100%;
+    margin: auto;
+}
+	}
+
+
+.text-danger {
+    color: #ce3f3f!important;
+    text-shadow: 0px 0px 4px #000!important;
+}
+
+.form-control {
+/*   border: 2px solid rgba(228, 78, 52, 0.8) !important;*/ 
+    padding: 5px 1%;
+    border-radius: 8px;
+}
+
+.form-control {
+	display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.2em;
+    background: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, .8);
+    background-clip: padding-box;
+    /*border: 1px solid #ced4da;*/
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    height: 2.75em !important;
+}
+
+.form-control:focus {
+    color: #fff;
+	border-color: #bf802a;
+    box-shadow: 0 0 0 1px #bf802a;
+	background-color: rgba(0, 0, 0, 0.8);
+	cursor:pointer;
+}
+
+/*幣商廣告--------------*/
+ul.bitcone {
+    list-style: none;
+    padding: 0;
+    margin-top: 1em;
+}
+ul.bitcone li{
+	margin-bottom: 10px;
+}
+
+/*頁數--------------*/
+.pagination li a{
+    background: #310603;
+    padding: 2.5px 10px;
+    margin-left: 4.5px;
+    border: 1px #9f150b solid;
+}
+.pagination li.active a{
+    background: #940a00;
+    border: 1px #9f150b solid;
+}
+.pagination li a{ color:#fff;}
+
+
+
+
+
+
+
+
+
+
+
